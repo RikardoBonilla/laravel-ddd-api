@@ -1,8 +1,8 @@
-# Zalvadora - API RESTful para Gestion de Planes
+# laravel-ddd-api
 
 ## 📋 Descripcion del Proyecto
 
-Zalvadora es una aplicacion Laravel 12 que implementa una API RESTful para la gestion de planes de suscripcion. Utiliza arquitectura Domain-Driven Design (DDD) y esta completamente dockerizada para facilitar el desarrollo y despliegue.
+Implementación de referencia de una API RESTful construida con Laravel 12 y arquitectura Domain-Driven Design (DDD). Gestión de planes de suscripción completamente dockerizada, con autenticación Sanctum, documentación Swagger y suite de tests.
 
 ## 🏗️ Arquitectura del Sistema
 
@@ -57,8 +57,8 @@ El proyecto esta estructurado siguiendo los principios de DDD con las siguientes
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/RikardoBonilla/PruebaZalvadora.git
-   cd PruebaZalvadora
+   git clone https://github.com/RikardoBonilla/laravel-ddd-api.git
+   cd laravel-ddd-api
    ```
 
 2. **Configurar variables de entorno**
@@ -379,7 +379,7 @@ npm run watch
 ## 📁 Estructura de Archivos Clave
 
 ```
-PruebaZalvadora/
+laravel-ddd-api/
 ├── docker/                          # Configuraciones Docker
 │   ├── app/Dockerfile               # Contenedor PHP-FPM
 │   └── nginx/default.conf           # Configuracion Nginx
@@ -496,7 +496,7 @@ docker exec zalvadora_app php artisan view:clear
 
 ## 📄 Licencia
 
-Este proyecto es parte de una prueba tecnica para Zalvadora.
+MIT License — Desarrollado por Ricardo Andres Bonilla Prada.
 
 ---
 
